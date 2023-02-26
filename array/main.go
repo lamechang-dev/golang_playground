@@ -16,4 +16,11 @@ func main() {
 	ns = append(ns, 6, 7)
 	fmt.Println(ns)
 	println(len(ns), cap(ns))
+
+	println("==============")
+
+	// range の例
+	for _, v := range ns {
+		fmt.Println(v)
+	}
 }
