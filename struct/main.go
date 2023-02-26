@@ -14,4 +14,7 @@ func main() {
 	}
 
 	fmt.Println(p)
+	p.age++
+	fmt.Println(p.age)
+	fmt.Println(p)
 }
