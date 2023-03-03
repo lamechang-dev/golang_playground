@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	var ns = []int{1, 2, 3, 4, 5}
+	ns := []int{1, 2, 3, 4, 5}
 	fmt.Println(ns)
 	slicedNs := ns[:3]
 	fmt.Println(slicedNs)
